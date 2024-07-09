@@ -17,7 +17,7 @@ echo "src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main"
 # iStore
 echo "src-git istore https://github.com/linkease/istore;main" >> feeds.conf.default
 
-echo "src-git kiddin9 https://github.com/kiddin9/openwrt-packages" >> feeds.conf.default
+
 
 # 替换默认主题
 rm -rf package/lean/luci-theme-argon 
